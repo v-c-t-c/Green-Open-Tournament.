@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="fond" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2e7d32"/>
+      <stop offset="1" stop-color="#14532d"/>
+    </linearGradient>
+  </defs>
+  <circle cx="200" cy="200" r="190" fill="url(#fond)" stroke="#c9a227" stroke-width="10"/>
+  <circle cx="200" cy="200" r="168" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="4 8"/>
+  <!-- colline -->
+  <path d="M40 270 Q200 190 360 270 A170 170 0 0 1 40 270 Z" fill="#43a047"/>
+  <!-- trou -->
+  <ellipse cx="215" cy="262" rx="26" ry="7" fill="#0b2e18"/>
+  <!-- drapeau -->
+  <line x1="215" y1="262" x2="215" y2="120" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+  <path d="M215 120 L285 145 L215 170 Z" fill="#c9a227"/>
+  <!-- balle -->
+  <circle cx="140" cy="248" r="22" fill="#ffffff"/>
+  <g fill="#d8dfda">
+    <circle cx="132" cy="240" r="2.5"/><circle cx="142" cy="238" r="2.5"/><circle cx="150" cy="246" r="2.5"/>
+    <circle cx="134" cy="250" r="2.5"/><circle cx="144" cy="256" r="2.5"/><circle cx="153" cy="256" r="2.5"/>
+  </g>
+  <!-- texte -->
+  <text x="200" y="80" text-anchor="middle" font-family="Georgia, serif" font-size="34" font-weight="bold" fill="#ffffff" letter-spacing="4">GREEN OPEN</text>
+  <text x="200" y="336" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#f6f1e4" letter-spacing="8">TOURNAMENT</text>
+</svg>

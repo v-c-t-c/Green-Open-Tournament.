@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <defs>
+    <linearGradient id="or" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6e08a"/>
+      <stop offset="0.5" stop-color="#c9a227"/>
+      <stop offset="1" stop-color="#8a6d12"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="#e8f5e9"/>
+  <!-- anses -->
+  <path d="M110 120 C40 120 40 230 130 240" fill="none" stroke="url(#or)" stroke-width="16" stroke-linecap="round"/>
+  <path d="M290 120 C360 120 360 230 270 240" fill="none" stroke="url(#or)" stroke-width="16" stroke-linecap="round"/>
+  <!-- coupe -->
+  <path d="M100 90 H300 V160 C300 235 255 275 200 275 C145 275 100 235 100 160 Z" fill="url(#or)"/>
+  <!-- pied -->
+  <rect x="185" y="275" width="30" height="80" fill="url(#or)"/>
+  <path d="M130 355 H270 L285 385 H115 Z" fill="url(#or)"/>
+  <rect x="105" y="385" width="190" height="55" rx="6" fill="#14532d"/>
+  <text x="200" y="420" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#f6e08a" letter-spacing="3">GREEN OPEN</text>
+  <!-- balle de golf sur la coupe -->
+  <circle cx="200" cy="170" r="38" fill="#ffffff"/>
+  <g fill="#d8dfda">
+    <circle cx="185" cy="155" r="4"/><circle cx="203" cy="152" r="4"/><circle cx="217" cy="166" r="4"/>
+    <circle cx="188" cy="173" r="4"/><circle cx="205" cy="184" r="4"/><circle cx="220" cy="186" r="4"/>
+  </g>
+</svg>
