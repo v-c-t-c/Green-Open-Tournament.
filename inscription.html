@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inscription – Green Open Tournament</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>⛳ Green Open Tournament</h1>
+    <p class="slogan">Un tournoi de golf organisé par des étudiants</p>
+    <nav>
+      <a href="index.html">Présentation</a>
+      <a href="evenement.html">L'événement</a>
+      <a href="programme.html">Programme</a>
+      <a href="inscription.html" class="actif">Inscription</a>
+      <a href="galerie.html">Galerie</a>
+      <a href="pratique.html">Infos pratiques</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Inscription au tournoi</h2>
+      <p>
+        Inscrivez votre équipe de quatre joueurs au <strong>Green Open Tournament</strong>
+        du dimanche 18 avril 2027. Les places sont limitées à 20 équipes.
+      </p>
+
+      <div class="grille">
+        <div class="carte">
+          <h3>💶 Tarifs</h3>
+          <ul>
+            <li>Étudiant : 15 € / joueur</li>
+            <li>Personnel et extérieur : 30 € / joueur</li>
+          </ul>
+          <p>Le tarif comprend le green fee, le déjeuner et le cocktail.</p>
+        </div>
+        <div class="carte">
+          <h3>⏰ Date limite</h3>
+          <p>Inscriptions ouvertes jusqu'au <strong>31 mars 2027</strong> (exemple à adapter).</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Formulaire</h2>
+
+      <form action="mailto:prenom.nom@etudiant.fr" method="post" enctype="text/plain">
+
+        <fieldset>
+          <legend>Votre équipe</legend>
+          <label for="equipe">Nom de l'équipe *</label>
+          <input type="text" id="equipe" name="equipe" required>
+
+          <label for="categorie">Catégorie *</label>
+          <select id="categorie" name="categorie" required>
+            <option value="">-- Choisir --</option>
+            <option value="debutants">Débutants</option>
+            <option value="confirmes">Joueurs confirmés</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <legend>Capitaine de l'équipe</legend>
+          <label for="nom">Nom *</label>
+          <input type="text" id="nom" name="nom" required>
+
+          <label for="prenom">Prénom *</label>
+          <input type="text" id="prenom" name="prenom" required>
+
+          <label for="email">Adresse e-mail *</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="tel">Téléphone</label>
+          <input type="tel" id="tel" name="tel">
+        </fieldset>
+
+        <fieldset>
+          <legend>Joueurs</legend>
+          <label for="joueur2">Joueur 2 *</label>
+          <input type="text" id="joueur2" name="joueur2" required>
+
+          <label for="joueur3">Joueur 3 *</label>
+          <input type="text" id="joueur3" name="joueur3" required>
+
+          <label for="joueur4">Joueur 4 *</label>
+          <input type="text" id="joueur4" name="joueur4" required>
+        </fieldset>
+
+        <fieldset>
+          <legend>Informations complémentaires</legend>
+          <label for="statut">Statut du capitaine *</label>
+          <select id="statut" name="statut" required>
+            <option value="">-- Choisir --</option>
+            <option value="etudiant">Étudiant</option>
+            <option value="personnel">Personnel de l'université</option>
+            <option value="exterieur">Extérieur</option>
+          </select>
+
+          <label for="materiel">Besoin de matériel de prêt ?</label>
+          <select id="materiel" name="materiel">
+            <option value="non">Non</option>
+            <option value="oui">Oui, pour certains joueurs</option>
+          </select>
+
+          <label for="regime">Allergies ou régime alimentaire</label>
+          <textarea id="regime" name="regime" rows="3"></textarea>
+        </fieldset>
+
+        <div class="case">
+          <input type="checkbox" id="reglement" name="reglement" required>
+          <label for="reglement">J'accepte le règlement du tournoi et les règles de fair-play. *</label>
+        </div>
+
+        <p class="note">* Champs obligatoires</p>
+
+        <button type="submit" class="bouton">Envoyer l'inscription</button>
+      </form>
+
+      <div class="info">
+        ℹ️ Ce formulaire ouvre votre messagerie pour envoyer l'inscription par e-mail à l'organisateur.
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 – Projet étudiant · Green Open Tournament</p>
+  </footer>
+
+</body>
+</html>
